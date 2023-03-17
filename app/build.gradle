@@ -6,6 +6,10 @@ android {
     namespace 'com.example.actividad3_webview'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.actividad3_webview"
         minSdk 24
